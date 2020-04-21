@@ -22,7 +22,7 @@ print("  You entered: ", urlx + "\n")
 
 # The call of all the functions in
 print("         ****   RESULTS   ****")
-#urlvoid(urlx)
+urlvoid(urlx)
 safewebnorton(urlx)
 # talosintelligence(urlx)
 # threatminerorg(urlx)
