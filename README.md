@@ -9,8 +9,8 @@ Currently it gives the results from the following repuation analysis sites:
 
 1. urlvoid.com
 2. safeweb.norton.com
-3.
-4.
-5.
+3. talosintelligence.com
+4. threatminer.org
+5. abuseipdb.com
 
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-import webbrowser
+from urllib import request
+import urllib
+import re
 
 def threatminerorg(urlx):
     threatminerurl = ("https://www.threatminer.org/domain.php?q=" + urlx)
