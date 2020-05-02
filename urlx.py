@@ -8,7 +8,8 @@
 
 from introscreen import *
 from urlvoid import *
-from safewebnorton import *
+# from sucurinet import *
+# fromm safewebnorton import *
 from threatminerorg import *
 from talosintelligence import *
 from abuseipdb import *
@@ -23,7 +24,8 @@ print("  You entered: ", urlx + "\n")
 # The call of all the functions in
 print("         ****   RESULTS   ****")
 urlvoid(urlx)
-safewebnorton(urlx)
+# safewebnorton(urlx)
+# sucurinet(urlx)
 talosintelligence(urlx)
 threatminerorg(urlx)
 abuseipdb(urlx)

@@ -3,9 +3,9 @@ from urllib import request
 import urllib
 import re
 
+
 def safewebnorton(urlx):
     safewebnortonurl = ("https://safeweb.norton.com/report/show?url=" + urlx)
-    #webbrowser.open(safewebnortonurl)
     print("SAFEWEB.NORTON.COM: " + safewebnortonurl)
     fp = urllib.request.urlopen(safewebnortonurl)  # this is the connection to the page?
     mybytes = fp.read()
