@@ -13,7 +13,7 @@ def safewebnorton(urlx):
     fp.close()
     verdict = re.findall("SAFE|CAUTION", mystr)
     verdict = str(verdict) #converitng verdict from list to string.
-    print("SAFEWEB.NORTON.COM: " + safewebnortonurl + "Verdict: " + verdict)
+    print("SAFEWEB.NORTON.COM: " + safewebnortonurl + " Verdict: " + verdict)
 
 
 

@@ -20,7 +20,7 @@ new = 2  # open in a new tab, if possible
 
 introscreen()
 
-urlx = input("  Enter a domain to get the analysis urls:")
+urlx = input("  Enter a domain (format: google.com) to get the analysis urls:")
 print("  You entered: ", urlx + "\n")
 
 # The call of all the functions in
