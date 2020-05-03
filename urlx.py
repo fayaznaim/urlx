@@ -7,6 +7,7 @@
 
 from introscreen import *
 from abuseipdb import *
+from hashddcom import *
 from safewebnorton import *
 from sucurinet import *
 from talosintelligence import *
@@ -17,14 +18,15 @@ from virustotalcom import *
 new = 2  # open in a new tab, if possible
 
 
-# introscreen()
+introscreen()
 
-urlx = input("  Enter a domain/url/ip address to get the analysis results:")
+urlx = input("  Enter a domain to get the analysis urls:")
 print("  You entered: ", urlx + "\n")
 
 # The call of all the functions in
 print("*****   RESULTS   *****")
 abuseipdb(urlx)
+hashddcom(urlx)
 safewebnorton(urlx)
 sucurinet(urlx)
 talosintelligence(urlx)
