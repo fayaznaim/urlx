@@ -9,6 +9,7 @@ from introscreen import *
 from abuseipdb import *
 from hashddcom import *
 from safewebnorton import *
+from securitytrailscom import *
 from sucurinet import *
 from talosintelligence import *
 from threatminerorg import *
@@ -28,6 +29,7 @@ print("*****   RESULTS   *****")
 abuseipdb(urlx)
 hashddcom(urlx)
 safewebnorton(urlx)
+securitytrailscom(urlx)
 sucurinet(urlx)
 talosintelligence(urlx)
 threatminerorg(urlx)
