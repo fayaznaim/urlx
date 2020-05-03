@@ -6,28 +6,31 @@
 # todo the talos link is not working. Now it is opening not sure what was wrong with it.
 # todo put the url data, the html in a variable to be able to re extract stuff.
 
+from abuseipdb import *
 from introscreen import *
 from urlvoid import *
-# from sucurinet import *
-# fromm safewebnorton import *
+from sucurinet import *
+from safewebnorton import *
 from threatminerorg import *
 from talosintelligence import *
-from abuseipdb import *
+from virustotalcom import *
+
 new = 2  # open in a new tab, if possible
 
 
-introscreen()
+# introscreen()
 
 urlx = input("  Enter a domain/url/ip address to get the analysis results:")
 print("  You entered: ", urlx + "\n")
 
 # The call of all the functions in
 print("         ****   RESULTS   ****")
+abuseipdb(urlx)
 urlvoid(urlx)
-# safewebnorton(urlx)
-# sucurinet(urlx)
+safewebnorton(urlx)
+sucurinet(urlx)
 talosintelligence(urlx)
 threatminerorg(urlx)
-abuseipdb(urlx)
+virustotalcom(urlx)
 
 print ("\n\n*****   End of output *****")

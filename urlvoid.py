@@ -7,13 +7,13 @@ import re
 def urlvoid(urlx):
     urlvoidurl = ("https://urlvoid.com/scan/" + urlx + "/")
     #webbrowser.open(urlvoidurl)  # this works but only if the scan for a certain website has been done before.
-    print("URLVOID.COM: " + urlvoidurl)
+    # print("URLVOID.COM: " + urlvoidurl)
     fp = urllib.request.urlopen(urlvoidurl)  # this is the connection to the page?
     mybytes = fp.read()
     mystr = mybytes.decode("utf8")
     fp.close()
     score = re.findall("[0-9]{1,2}/[0-9]{2}", mystr)
-    print("Score: ", score)
+    print("URLVOID.COM: " + urlvoidurl + " Score: ", score)
 
     # soup = BeautifulSoup(mystr, 'html.parser')
     # # print(soup.prettify()) # this will get everything.
